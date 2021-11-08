@@ -1,0 +1,34 @@
+:root {
+  --body-color: #272044;
+  --border-color: #6c63ff;
+}
+
+.top-navbar,
+.homepage-content,
+.bottom-bar {
+  color: var(--body-color);
+}
+
+.color-navcontent {
+  color: var(--body-color);
+}
+
+.project-launch,
+.illustrations-src {
+  text-decoration: var(--link-text-decor);
+  color: var(--body-color);
+  transition: all 200ms ease-in-out;
+}
+
+.project-launch:hover {
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  padding: 12px 24px;
+  background-color: var(--border-color);
+  color: #fff;
+}
+
+.illustrations-src:hover {
+  text-decoration: underline;
+  color: var(--body-color);
+}

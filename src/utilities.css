@@ -1,0 +1,60 @@
+.font-opensans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.font-cutive-mono {
+  font-family: "Cutive Mono", monospace;
+}
+
+.font-dansingscript {
+  font-family: "Dancing Script", cursive;
+}
+
+.fontsize-16 {
+  font-size: 16px;
+}
+.fontsize-18 {
+  font-size: 18px;
+}
+.fontsize-20 {
+  font-size: 20px;
+}
+.fontsize-24 {
+  font-size: 24px;
+}
+.fontsize-26 {
+  font-size: 26px;
+}
+.fontsize-28 {
+  font-size: 28px;
+}
+.fontsize-30 {
+  font-size: 30px;
+}
+.fontsize-40 {
+  font-size: 40px;
+}
+.fontsize-50 {
+  font-size: 50px;
+}
+.fontweight-300 {
+  font-weight: 300;
+}
+.fontweight-400 {
+  font-weight: 400;
+}
+.fonteight-500 {
+  font-family: 500;
+}
+
+.opacity-8 {
+  opacity: 0.8;
+}
+
+.opacity-9 {
+  opacity: 0.9;
+}
+
+.text-justify {
+  text-align: justify;
+}
