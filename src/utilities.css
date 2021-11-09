@@ -1,3 +1,39 @@
+:root {
+  --body-color: #272044;
+  --border-color: #6c63ff;
+  --link-text-decor: none;
+}
+
+.top-navbar,
+.homepage-content,
+.about-content .bottom-bar {
+  color: var(--body-color);
+}
+
+.color-navcontent {
+  color: var(--body-color);
+}
+
+.project-launch,
+.illustrations-src {
+  text-decoration: var(--link-text-decor);
+  color: var(--body-color);
+  transition: all 200ms ease-in-out;
+}
+
+.project-launch:hover {
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  padding: 12px 24px;
+  background-color: var(--border-color);
+  color: #fff;
+}
+
+.illustrations-src:hover {
+  text-decoration: underline;
+  color: var(--body-color);
+}
+
 .font-opensans {
   font-family: "Open Sans", sans-serif;
 }
@@ -57,4 +93,18 @@
 
 .text-justify {
   text-align: justify;
+}
+
+.github-link,
+.linkedin-link {
+  color: var(--body-color);
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.linkedin-link:hover,
+.github-link:hover {
+  opacity: 1;
+  color: var(--body-color);
+  text-decoration: underline;
 }
