@@ -1,0 +1,21 @@
+.project-launch {
+  border: 1px solid #6c63ff;
+  border-radius: 30px;
+  padding: 12px 24px;
+}
+
+@media (max-width: 576px) {
+  .project-launch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid var(--border-color);
+    border-radius: 30px;
+    padding: 12px 24px;
+    background-color: var(--border-color);
+    color: #fff;
+  }
+  img {
+    display: none;
+  }
+}
