@@ -15,17 +15,25 @@
 }
 
 .project-launch,
-.illustrations-src {
+.illustrations-src,
+.view-projects {
   text-decoration: var(--link-text-decor);
   color: var(--body-color);
   transition: all 200ms ease-in-out;
 }
 
-.project-launch:hover {
+.project-launch,
+.view-projects {
   border: 1px solid var(--border-color);
   border-radius: 30px;
   padding: 12px 24px;
   background-color: var(--border-color);
+  color: #fff;
+}
+
+.project-launch:hover,
+.view-projects:hover {
+  box-shadow: 1px 4px 56px 8px rgba(0, 0, 0, 0.3);
   color: #fff;
 }
 
