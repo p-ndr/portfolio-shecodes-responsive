@@ -4,11 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="My personal homepage. A developer's personal homepage."
-    />
-    <title>👩‍💻&ensp;Parnian's Homepage</title>
+    <title>💻&ensp;Projects</title>
     <!-- bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -38,12 +34,11 @@
     <!-- end of fontawesome logos -->
     <!-- custom css -->
     <link rel="stylesheet" href="src/utilities.css" />
-    <link rel="stylesheet" href="src/homepage.css" />
     <!-- end of custom css -->
   </head>
   <body>
     <div class="container-fluid font-opensans">
-      <section class="top-navbar h-25">
+      <section class="top-bar h-25">
         <nav
           class="navbar navbar-expand-lg navbar-light fixed-top bg-white py-4"
         >
@@ -67,13 +62,13 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav ms-auto">
                 <a
-                  class="nav-link text-center active pe-5"
+                  class="nav-link text-center pe-5"
                   aria-current="page"
                   href="index.html"
                   >Home</a
                 >
                 <a class="nav-link text-center pe-5" href="about.html">About</a>
-                <a class="nav-link text-center pe-5" href="projects.html"
+                <a class="nav-link active text-center pe-5" href="projects.html"
                   >Projects</a
                 >
                 <a class="nav-link text-center pe-5" href="about.html#contact"
@@ -84,76 +79,85 @@
           </div>
         </nav>
       </section>
-      <section class="homepage-content h-50 py-5 my-5">
+      <section class="projects-content h-50 py-5 my-5">
         <div class="container-fluid">
-          <div class="container-fluid mb-5 pb-5">
-            <div class="row my-5">
-              <div class="col-sm-6 mx-auto text-center">
-                <div class="fontsize-30">Hi I'm</div>
-                <div class="fontsize-50 fontweight-500">Parnian</div>
-                <h1 class="fontsize-20 opacity-8">
-                  A Backend Developer Based in Iran
-                </h1>
-              </div>
-            </div>
-          </div>
-          <div class="row mt-5 pt-5 mx-4">
-            <div class="col-sm-6 mb-3">
-              <div class="container-fluid">
-                <img
-                  src="images/landing_page.svg"
-                  alt="Landing Page"
-                  class="img-fluid"
-                />
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="project-name fontsize-30 fontweight-500">
-                Landing Page
-              </div>
-              <div class="project-details mt-2 opacity-9 fontsize-18">
-                Designed for SheCodes Basics final projects, this landing page
-                contains information about Mersenne Twister.
-              </div>
-              <div class="mt-5 opacity-9 fontsize-14 launch">
-                <a
-                  href="https://www.shecodes.io/workshops/shecodes-basics-00f05685-1a07-4d9f-a4e1-7b822eb75fcb/projects/514161"
-                  class="project-launch"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  Launch This Project
-                </a>
+          <div class="row pt-5 mt-5 mb-5">
+            <div class="col-sm-8 mx-auto">
+              <div class="fontsize-50 font-dansingscript text-center">
+                <h1>Take a Look at what I've been working on!</h1>
               </div>
             </div>
           </div>
           <div class="row pt-5 mt-5 mx-4">
-            <div class="col-sm-6 mt-4">
-              <div class="project-name fontsize-30 fontweight-500">
-                Weather App
+            <div class="col-sm-4 mb-5 pb-5">
+              <img
+                src="images/landing_page.svg"
+                alt="Landing Page"
+                class="img-fluid"
+              />
+              <div class="text-center mt-3 fontsize-20 fontweight-500">
+                Landing Page
               </div>
-              <div class="project-details fontsize-18 pt-2">
-                Designed for SheCodes Plus Project, this app uses Active Weather
-                API (obtained from openweathermap), and bootstrap.
-              </div>
-              <div class="fontsize-14 opacity-9 mt-5 launch">
+              <p class="paragraph fontsize-14 opacity-8 mt-3 text-center">
+                Coded with Basic HTML, CSS and Javascript for SheCodes Basics.
+              </p>
+              <div class="text-center fontsize-16 mt-5">
                 <a
-                  href="https://weatherappforshecodesplus.netlify.app"
-                  class="project-launch"
+                  href="https://www.shecodes.io/workshops/shecodes-basics-00f05685-1a07-4d9f-a4e1-7b822eb75fcb/projects/514161"
                   target="_blank"
-                  rel="noreferrer noopener"
+                  rel="noopener noreferrer"
+                  class="project-launch"
                 >
-                  Launch This Project
+                  Launch
                 </a>
               </div>
             </div>
-            <div class="col-sm-6 mt-4">
-              <div class="container-fluid">
-                <img
-                  src="images/weather-app.svg"
-                  alt="Weather App"
-                  class="img-fluid"
-                />
+            <div class="col-sm-4 mb-5 pb-5">
+              <img
+                src="images/calculator-project.svg"
+                alt="Calculator"
+                class="img-fluid"
+              />
+              <div class="text-center mt-3 fontsize-20 fontweight-500">
+                Calculator
+              </div>
+              <p class="paragraph fontsize-14 opacity-8 mt-3 text-center">
+                A simple calculator with MIPS, which does addition,
+                multiplication, division, power and factorial.
+              </p>
+              <div class="text-center fontsize-16 mt-5">
+                <a
+                  href="https://github.com/parnian-naderi/MIPS-Calculator"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-launch"
+                >
+                  Go to Repository
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-4 mb-5 pb-5">
+              <img
+                src="images/weather-app.svg"
+                alt="Weather App"
+                class="img-fluid"
+              />
+              <div class="text-center mt-3 fontsize-20 fontweight-500">
+                Weather App
+              </div>
+              <p class="paragraph fontsize-14 opacity-8 mt-3 text-center">
+                Coded with HTML, CSS, Javascript for SheCodes Plus, with using
+                OpenWeatherMap API and logos.
+              </p>
+              <div class="text-center fontsize-16 mt-5">
+                <a
+                  href="https://weatherappforshecodesplus.netlify.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-launch"
+                >
+                  Launch
+                </a>
               </div>
             </div>
           </div>
