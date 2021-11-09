@@ -54,6 +54,10 @@
   font-family: "Dancing Script", cursive;
 }
 
+.fontsize-12 {
+  font-size: 12px;
+}
+
 .fontsize-16 {
   font-size: 16px;
 }
