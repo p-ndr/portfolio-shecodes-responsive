@@ -108,14 +108,16 @@
 }
 
 .github-link,
-.linkedin-link {
+.linkedin-link,
+.work-link {
   color: var(--body-color);
   text-decoration: none;
   transition: all 200ms ease-in-out;
 }
 
 .linkedin-link:hover,
-.github-link:hover {
+.github-link:hover,
+.work-link:hover {
   opacity: 1;
   color: var(--body-color);
   text-decoration: underline;
